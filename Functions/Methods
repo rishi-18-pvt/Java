@@ -1,0 +1,21 @@
+#Adding two numbers using Methods
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Sum();
+
+
+    }
+    static void Sum() {
+        int num1, num2, sum;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter First Number: ");
+        num1 = sc.nextInt();
+        System.out.print("Enter Second Number: ");
+        num2 = sc.nextInt();
+        sum = num1 + num2;
+        System.out.println("The Sum is: " + sum);
+    }
+}
