@@ -1,0 +1,18 @@
+import java.util.Arrays;
+
+public class swap {
+    public static void main(String[] args) {
+        int [] arr = {3,4,5,8,2};
+        swap(arr,0,3);
+        System.out.println(Arrays.toString(arr));
+    }
+    static void swap(int[] arr, int i,  int j){
+        int temp = arr[j];
+        arr[j] = arr[i];
+        arr[i] = temp;
+    }
+}
+
+
+Input: [3,4,5,8,2]
+output: [8, 4, 5, 3, 2]
