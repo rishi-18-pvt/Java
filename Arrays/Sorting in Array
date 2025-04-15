@@ -1,0 +1,13 @@
+Sorting in an Array
+
+import java.util.Arrays;
+
+public class main {
+    public static void main(String[] args) {
+        int [] arr = {181,221,289,900,21};
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+}
+
+output: [21, 181, 221, 289, 900]
