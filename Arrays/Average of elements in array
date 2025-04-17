@@ -1,0 +1,17 @@
+To find the average value of elements in the given array
+
+public class Main {
+    public static void main(String[] args) {
+        int [] arr = {12,13,15,6,7,8};
+        int sum = 0;
+        for(int i =0; i < arr.length; i++){
+            sum += arr[i];
+        }
+
+        double average = sum / arr.length;
+        System.out.println(average);
+    }
+}
+
+Output: 10.0
+
