@@ -1,0 +1,18 @@
+**First output corresponds to integer**
+**Second output corresponds to Float**
+
+Sample Input: 4
+              5.678
+Sample Output: 4
+               5.68
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num1 = sc.nextInt();
+        float num2 = sc.nextFloat();
+        System.out.println(num1);
+        System.out.printf("%.2f",num2);
+    }
+}
