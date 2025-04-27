@@ -1,0 +1,22 @@
+
+Sample Input : 67.98
+Sample Output : 67.980003
+                67.9800
+                67.98
+                68
+
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        float num1 = sc.nextFloat();
+        System.out.printf("%.6f\n",(double)num1);
+        System.out.printf("%.4f\n",num1);
+        
+        System.out.printf("%.2f\n",num1);
+        System.out.print(Math.round(num1));
+        
+    }
+}
