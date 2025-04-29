@@ -1,0 +1,25 @@
+Sila wants to know how to calculate the values using math function.can you please guide her to perform the math Calculations. Note:use the Floor, Ceil, Sqrt, Pow
+
+Sample Input : 76.78
+               16
+               2
+               3
+Sample Output:  76
+                77
+                4
+                8   
+
+public class Solution {
+
+    public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+        Float num1 = sc.nextFloat();
+        int num2 = sc.nextInt();
+        int num3 = sc.nextInt();
+        int num4 = sc.nextInt();
+        System.out.println((int)Math.floor(num1));
+        System.out.println((int)Math.ceil(num1));
+        System.out.println((int)Math.sqrt(num2));
+        System.out.println((int)Math.pow(num3,num4));
+    }
+}
