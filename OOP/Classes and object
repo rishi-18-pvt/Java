@@ -1,0 +1,29 @@
+public class Main {
+    public static void main(String[] args) {
+
+        int[] rno = new int[5];
+        String[] name = new String[5];
+        float[] marks = new float[5];
+
+        Student[] students = new Student[5];
+
+        Student Rishi = new Student(20, "Rishi", 84.5f);
+        System.out.println(Rishi.rno);
+        System.out.println(Rishi.name);
+        System.out.println(Rishi.marks);
+
+    }
+}
+
+class Student {
+    int rno;
+    String name;
+    float marks;
+
+    Student(int rno, String name, float marks) {
+        this.rno = rno;
+        this.name = name;
+        this.marks = marks;
+    }
+}
+
